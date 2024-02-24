@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #3B3B4F;
+    color: aliceblue;
+}
+h1{
+    margin-bottom: 2rem;
+}
+label{
+    font-size: 1.2rem;
+}
+#phone-case{
+    width: 300px;
+    height: 60vh;
+    background-color: black;
+    padding: .5rem;
+    border-radius: 10px;
+    color: black;
+}
+#phone-screen{
+height: 80%;
+width: 90%;
+background-color: aliceblue;
+margin: 1rem;
+text-align: center;
+padding: 1rem;
+}
+button{
+    padding: .5rem 2rem;
+    margin-left: 1.75em;
+}
+#camera{
+    width: 15px;
+    height: 15px;
+    background-color: aliceblue;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+#user-input{
+    border-radius: 10px;
+    padding: .75rem;
+}
